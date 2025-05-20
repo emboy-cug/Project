@@ -81,3 +81,13 @@ Key findings from the models:
   - Expanding the dataset to include more cities and regions for better model generalization.
   - Enhancing the **MLP** model by adjusting its architecture and hyperparameters to stabilize performance.
   - Developing a real-time application for UHI prediction using the best-performing model.
+## Directory Structure
+
+```plaintext
+├── Notebooks
+│   ├── Data (4).ipynb               # Data exploration and preprocessing notebook
+│   ├── Model (1).ipynb              # Model implementation and training notebook
+├── Data
+│   └── urban_heat_island_dataset.csv  # Raw dataset used for training and testing
+├── README.md
+└── requirements.txt                # Python packages required to run the project (to be created)
